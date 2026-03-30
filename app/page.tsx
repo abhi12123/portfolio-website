@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex sm:m-10! m-4!  bg-zinc-50 font-mono dark:bg-black">
-      <main className="relative flex w-full max-w-3xl flex-col  py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="flex sm:m-10! m-4! font-mono bg-background">
+      <main className="relative flex w-full max-w-3xl flex-col  py-32 px-16  sm:items-start">
         <h1>
           I'm Abhinav. A senior software engineer with over 5 years of
           experience in building scalable web applications.
