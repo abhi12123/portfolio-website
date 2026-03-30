@@ -2,63 +2,131 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
+    <div className="flex sm:m-10! m-4!  bg-zinc-50 font-mono dark:bg-black">
+      <main className="relative flex w-full max-w-3xl flex-col  py-32 px-16 bg-white dark:bg-black sm:items-start">
+        <h1>
+          I'm Abhinav. A senior software engineer with over 5 years of
+          experience in building scalable web applications.
+        </h1>
+        <p className="text-neutral-400">Based in Bangalore, India</p>
+        <br />
+        <p>
+          Currently I'm working on{" "}
           <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
+            href="https://makebetterresume.com/"
             target="_blank"
             rel="noopener noreferrer"
+            className="underline"
           >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
+            MakeBetterResume
           </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+          , a resume builder that helps job seekers create professional resumes
+          in minutes using AI.
+        </p>
+        <br />
+        <h2>Experience</h2>
+        <ul className="pl-4!">
+          <li>
+            <a
+              href="https://www.docket.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Docket.io
+            </a>{" "}
+            <span className="text-neutral-400">- April 2026 - Present</span>
+            <ul className="pl-4! list-disc">
+              <li>Just started the journey here.</li>
+            </ul>
+          </li>
+          <br />
+          <li>
+            <a
+              href="https://scispace.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Scispace
+            </a>{" "}
+            <span className="text-neutral-400">- July 2022 - March 2026</span>
+            <ul className="pl-4! list-disc">
+              <li>
+                Led end to end development of multiple features across the
+                product including an AI Agent.
+              </li>
+              <li>Engineered a new design system for the organisation.</li>
+              <li>
+                Mentored junior engineers, set up best practices for the
+                codebase and took over 100 interviews for the organisation.
+              </li>
+              <li>
+                Led the front end engineering of the company through multiple
+                pivotes and features
+              </li>
+            </ul>
+            <br />
+          </li>
+          <li>
+            <a
+              href="https://ceegees.in/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Ceegees Software Solution
+            </a>
+            <span className="text-neutral-400"> - Feb 2021 - June 2022</span>
+            <ul className="pl-4! list-disc">
+              <li>Bootstrapped a product which helps in Team building</li>
+            </ul>
+            <br />
+          </li>
+        </ul>
+        <h2>Contact</h2>
+        <ul className="pl-4!">
+          <li>
+            <a
+              href="https://x.com/abhi_vp_"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Twitter
+            </a>
+          </li>
+          <li>
+            <a
+              href="mailto:vpofficial55@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              Email
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/abhinavvp/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              LinkedIn
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/abhi12123"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="underline"
+            >
+              GitHub
+            </a>
+          </li>
+        </ul>
       </main>
     </div>
   );
